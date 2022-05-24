@@ -15,10 +15,5 @@
    - name: execute npm
      command: forever start ~/SonarQubeNodeJS/app/server.js
      
-   - name: deploy execute
-     copy:
-       src: app/views/index.html
-       dest: /tmp
-       workdir: /tmp
-       
+   
      
