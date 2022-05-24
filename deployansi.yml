@@ -19,5 +19,6 @@
      copy:
        src: app/views/index.html
        dest: /tmp
+       workdir: /tmp
        
      
