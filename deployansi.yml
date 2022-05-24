@@ -15,8 +15,4 @@
    - name: execute npm
      command: forever start SonarQubeNodeJS/app/server.js
      
-   - name: copy folder
-     copy: 
-      src: "{{root/SonarQubeNodeJS/app/views}}/build"
-      dest: /var/www
-      remote_src: no
+   
