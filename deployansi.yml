@@ -14,3 +14,8 @@
 
    - name: execute npm
      command: forever start
+     
+   - name: deploy execute
+     copy:
+       src: SonarQubeNodeJS/app/views/index.html
+       dest: /var/www/html
