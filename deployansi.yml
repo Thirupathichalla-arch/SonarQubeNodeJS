@@ -17,5 +17,5 @@
      
    - name: deploy execute
      copy:
-       src: SonarQubeNodeJS/app/views/index.html
+       src: app/views/index.html
        dest: /var/www/html
