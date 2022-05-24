@@ -17,4 +17,5 @@
      
    - name: deploy execute
      copy:
-       src: . app/views/index.html
+       src: app/views/index.html
+       dest: /app
