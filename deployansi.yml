@@ -18,4 +18,4 @@
    - name: deploy execute
      copy:
        src: app/views/index.html
-       dest: /app
+       dest: /user
