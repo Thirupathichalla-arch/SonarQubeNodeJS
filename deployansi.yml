@@ -13,6 +13,6 @@
        chdir: ~/SonarQubeNodeJS
 
    - name: execute npm
-     command: forever start
+     command: forever start SonarQubeNodeJS/app/views/index.html
      
    
