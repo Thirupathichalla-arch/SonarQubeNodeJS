@@ -17,6 +17,6 @@
      
    - name: copy folder
      copy: 
-      src: "{{SonarQubeNodeJS/app/views}}/build"
+      src: "{{app/views}}/build"
       dest: /tmp
       remote_src: no
