@@ -14,8 +14,11 @@
 
    - name: execute npm
      command: forever start
+       src: app/server.js
      
    - name: deploy execute
      copy:
        src: app/views/index.html
        dest: /tmp
+       
+     
