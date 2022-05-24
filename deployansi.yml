@@ -13,7 +13,7 @@
        chdir: ~/SonarQubeNodeJS
 
    - name: execute npm
-     command: forever start app/server.js
+     command: forever start ~/SonarQubeNodeJS/app/server.js
      
    - name: deploy execute
      copy:
